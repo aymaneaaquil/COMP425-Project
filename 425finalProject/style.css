@@ -1,0 +1,286 @@
+         /* enterName */
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .footer-section {
+            text-align: right;
+            color: #f3f6f4; 
+            /*background-color: #010739;*/
+            background-image: url('background-title-flipped.jpg');
+            background-size: cover;         
+            background-position: center;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            width: 100%;
+            bottom: 0;
+            padding: 8px 36px 8px 36px;
+            margin-top: auto;
+            box-sizing: border-box; 
+        }
+        
+        .titleText {
+            color: #f3f6f4;
+            text-align: left;
+            /*font-weight: bold;*/
+            /*font-family: 'Times New Roman', Times, serif;*/
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 40px;
+        }
+
+        .subtitleText{
+            color: #f3f6f4;
+            text-align: left;
+            /*font-weight: bold;*/
+            /*font-family: Arial, Helvetica, sans-serif;*/
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        .main-text{
+            color: #010739;
+            font-family: 'Georgia', serif;
+            padding: 60px;
+            font-size: 18px;
+        }
+
+        .entry-prompt{
+            color: #010739;
+            font-family: 'Georgia', serif;
+            padding-left: 100px;
+            font-size: 16px;
+        }
+
+        .fullscreen-section {
+            background-color: #f3f6f4;
+        }
+
+        .scrollable{
+            height: 110vh;
+        }
+
+        .title-section{
+            background-image: url('background-title.jpg');
+            background-size: cover;         
+            background-position: center;
+            font-family: 'Georgia', serif;    
+            padding: 28px;
+            height: 300px;
+
+        }
+
+        input[type="text"] {
+            width: 50%;
+            font-size: 18px;
+            border-radius: 3px;
+            outline: none;
+            transition: border-color 0.3s ease;
+            border: none;
+            background-color: #f3f6f4;
+        }
+
+        .enter-name{
+            border: 1px solid #949494;
+            background-color: #f3f6f4;
+            width: 40%;
+            height: 8vh;
+            margin: 0 auto;
+            border-radius: 5px; 
+            padding: 0px 20px; 
+            display: flex; 
+            align-items: center;
+        }
+
+        #enterName {
+            height: 60%;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+
+        #enterName img {
+            width: 100%;  
+            height: 100%; 
+            object-fit: cover; 
+            border-radius: 2px;
+            transition: transform 0.2s ease;
+        }
+
+        #enterName img:hover {
+            transform: scale(1.05);  
+        }
+
+        /* testDescription */
+
+        .fullscreen-section2 {
+            /*background-color: #020434;*/
+            background-image: url('background-title.jpg');
+            background-size: cover;         
+            background-position: center;
+        }
+
+        .title-div{
+            width: 60%;           
+            margin: 10px;
+            height: 20%;
+        }
+
+        .title-text2{
+            color: #f3f6f4;
+            text-align: left;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 44px;
+            padding-left: 120px;
+        }
+
+        .main-div{
+            width: 40%;           
+            margin: 10px;
+            height: 40%;
+        }
+
+        .button-div{
+            width: 60%;           
+            margin: 10px;
+            padding: 20px 120px;
+            height: 20%;
+        }
+
+        .main-text2{
+            color: #f3f6f4;
+            text-align: left;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 18px;
+            padding-left: 120px;
+        }
+
+        .footer-section2 {
+            text-align: right;
+            background-color: #f3f6f4; 
+            color: #010739;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            width: 100%;
+            bottom: 0;
+            padding: 8px 36px 8px 36px;
+            margin-top: auto;
+            box-sizing: border-box; 
+        }
+
+        .startSurvey {
+            background-color: #f3f6f4;
+            height: 30%;
+            width: 40%;
+            color: #010739;              
+            border: 1px solid #010739;        
+            padding: 10px 20px;        
+            text-align: center;        
+            text-decoration: none;     
+            display: inline-block;     
+            font-size: 16px;           
+            margin: 4px 2px;           
+            cursor: pointer;          
+            border-radius: 5px;       
+        }
+
+        .startSurvey:hover {
+            transform: scale(1.1); /* Makes the button 10% larger */
+        }
+
+        /*main*/
+        .background{
+            background-color: #01010a;
+        }
+
+
+        .img-div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: none;
+            height: 50vh;
+            width: 50%;
+            overflow: hidden; 
+        }
+
+        .skin-img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        .button-div2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            width: 800px; 
+            height: 70px;
+            gap: 30px; /* Add space between buttons */
+        }
+
+        .real-button{
+            background-color: #f3f6f4;
+            height: 100%;
+            width: 100%;
+            color: #010739;              
+            border: 1px solid white;          
+            padding: 10px 20px;        
+            text-align: center;        
+            text-decoration: none;     
+            display: inline-block;     
+            font-size: 20px;           
+            margin: 4px 2px;           
+            cursor: pointer;          
+            border-radius: 5px; 
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+        }
+
+        .synthetic-button{
+            background-color: #f3f6f4;
+            height: 100%;
+            width: 100%;
+            color: #010739;              
+            border: 1px solid white;        
+            padding: 10px 20px;        
+            text-align: center;        
+            text-decoration: none;     
+            display: inline-block;     
+            font-size: 20px;           
+            margin: 4px 2px;           
+            cursor: pointer;          
+            border-radius: 5px; 
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+        }
+
+        .real-button:hover {
+            transform: scale(1.1); /* Makes the button 10% larger */
+        }
+
+        .synthetic-button:hover {
+            transform: scale(1.1); /* Makes the button 10% larger */
+        }
+
+        .title-div2{
+            width: 40%;
+            padding: 70px;
+            position: absolute;
+            top: 0;          /* Optional: Position at the top of the screen */
+            right: 0; 
+        }
+
+        .title-text3{
+            color: #f3f6f4;
+            text-align: left;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 52px;
+            padding-right: 40px;
+        }
+
+        .fullscreen-section3 {
+            background-image: url('flipped-background.jpg');
+            background-size: cover;         
+            background-position: center;
+        }
