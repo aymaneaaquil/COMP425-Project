@@ -6,23 +6,23 @@ import sys
 
 EXPERIMENTS = [
 
-    "python gan/cgan.py --n_epochs 1 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 32",
+    "python gan/cgan.py --n_epochs 1 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 32", #test one
 
-    "python gan/cgan.py --n_epochs 2 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 32",
+    "python gan/cgan.py --n_epochs 2 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 32", #test two
 
-    "python gan/cgan.py --n_epochs 100 --batch_size 4 --img_size 128 --lr 0.0002 --mask_size 32",
+    "python gan/cgan.py --n_epochs 100 --batch_size 4 --img_size 128 --lr 0.0002 --mask_size 32", #220325-170511
 
-    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0001 --mask_size 32",
+    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0001 --mask_size 32",  #230325-002603
 
-    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0005 --mask_size 32",
+    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0005 --mask_size 32",  #230325-035402
 
-    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --b1 0.7 --b2 0.999 --mask_size 32",
+    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --b1 0.7 --b2 0.999 --mask_size 32", #230325-072221
 
-    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 48",
+    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 48",  #230325-104109
 
-    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 24",
+    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 24",  #230325-140100
 
-    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --latent_dim 200 --mask_size 32",
+    "python gan/cgan.py --n_epochs 50 --batch_size 8 --img_size 128 --lr 0.0002 --mask_size 32",  #230325-172325
 ]
 
 # I forgot to mention above but the purpose of all this is that its a grind to every 4 hours click run, why not have it all queued up? that is what this script does.
